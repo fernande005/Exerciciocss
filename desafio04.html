@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+ *{
+            margin: 0 auto;
+            padding: 0;
+        }
+        .menu ul{
+            padding: 0;
+            max-width: 500px;
+        }
+        .menu ul li{   
+            background-color: #000000;       
+            color: rgb(255, 255, 255);
+            float: left;
+            width: 100px;
+            height: 20px;
+            display: inline-block;
+            text-align: center;
+            line-height: 20px;
+            position: relative;
+        }
+        .menu ul li:hover{
+            background-color:rgb(129, 80, 11);
+        }
+       
+        .menu ul ul{
+            display: none;
+        }
+        .menu ul li:hover > ul{
+            display: block;
+        }
+       
+        .menu ul ul ul{
+            margin-left: 102px;
+            position: absolute;
+            top: 0px;
+        }
+        .menu ul ul li:hover{
+            background-color:rgb(129, 80, 11);
+        }
+        .menu ul ul ul li:hover{
+            background-color:rgb(2, 2, 88);
+        }
+        .menu_top {
+            width: 100%;
+            height: 140px;
+            border-bottom: 30px solid #000000;
+            border-top: 30px solid #000000;
+            background-color: #8b4500;
+        }
+        .top_esp {
+            width: 140px;
+            float: left;
+            padding: 10px;
+        }
+
+        .top_dir {
+            float: left;
+            text-align: center;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 100px;
+            color: #efefef;
+            padding-left: 100px;
+            padding-top: 20px;
+        }
+        input {
+            width: 10%;
+            height: 30px;
+            font-size: 15px;
+            margin-bottom: 20px;
+            background-color: #ffffff;
+            border: solid rgb(1, 1, 1) 1.5px;
+            border-radius: 50px;
+            background-size: 10%;
+            background-repeat: no-repeat;
+            background-position: top 10px right 15px;
+            margin-top: 50px;
+            margin-right: 40px;
+            float: right;
+        }
+        .button{
+             width: 42px;
+             height: 33px;
+            font-size: 18px;
+             margin: 45px 0 0 5px;
+            background-color: #ffffff;
+            border: solid rgb(1, 1, 1) 3px;
+            border-radius: 10px;
+            float: left;
+        }
+        button:hover {
+             background-color: #4c2b10;
+            color: #8b7d6a;
+}
+        /*ovos*/
+        .ovos {
+            background-color: #311b04;
+            float: left;
+            text-align: center;
+        }
+        .ovos img{
+            padding: 80px;
+        }
+         .roda {
+            background-color: #8b4500;
+            margin-top: 20px;
+            height: 330px;
+            }
+    </style>
+    </style>
+</head>
+<body>
+    <header>
+        <div class="menu_top">
+            <div class="top_esp">
+                <figure>
+                    <img src="img/chocolate.jpg" alt="logo" height="100px">
+                </figure>
+                <button>ok</button>
+            </div>
+        <input class="pesq" type="text" name="pesq" placeholder="Pesquisar">
+            <div class="top_dir">
+                CHOCOLATERIA COELHO
+            </div>
+        <nav class="menu">
+            <ul>
+                <li>Home
+                    <ul>
+                        <li>Ovos rechados</li>
+                        <li>Ovos padrão</li>
+                            <ul>
+                                <li>Leite ninho</li>
+                                <li>Nutella</li>
+                            </ul>
+                        </li>
+                        <li>Paçoca</li>
+                        <li>maracuja com chocolate</li>
+                        <li>ouro branco</li>
+                    </ul>
+                </li>
+                <li>Ovos
+                    <ul>
+                        <li>Ovos rechados</li>
+                        <li>Ovos padrão</li>
+                        <li>Leite ninho</li>
+                            <ul>
+                                <li>Paçoca</li>
+                                <li>Interior</li>
+                            </ul>
+                        </li>
+                        <li>Maracuja com chocolate</li>
+                        <li>Ouro branco</li>
+                        <li>Sonho de Valsa</li>
+                    </ul>
+                </li>
+                <li>BomBons
+                    <ul>
+                        <li>brigadeiro</li>
+                        <li>Doce de leite</li>
+                        <li>Ninho
+                            <ul>
+                                <li>Maracuja</li>
+                                <li>Pistache</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>Sobre
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    <body>    
+        <div class="down_down">
+            <a href="https://pt-br.facebook.com/" target="_blank"><img src="img/face_logo_02.png" height="40" width="40"></a>
+            <a href="https://web.whatsapp.com/" target="_blank"><img src="img/whats_logo_2222.png" height="50" width="40"></a>
+            <a href="https://wwws. instagram.com/" target="_blank"><img src="img/inst_logo_01.png" height="40" width="40"></a>
+        </div>
+            <img src="img/Pascoa css.png" height="600" width="100%">
+        <div class="ovos">
+            <img src="img/ovos 1.jpg" height="300" width="300">
+            <img src="img/ovos 2.avif" height="300" width="300">
+            <img src="img/ovos 3.avif" height="300" width="300">
+            <img src="img/ovos 4.avif" height="300" width="300">
+            <img src="img/ovos 5.jpg"   height="300" width="300">
+            <img src="img/ovos 5.webp" height="300" width="300">
+        </div>
+        <div class="roda">
+          <h1>Entre em contato</h1>
+          <h3>(11) 91234-5678
+            <br>
+            Contato:chocolatariacoelho@gmail.com
+          </h3>
+
+        </div>
+</body>
+</html>

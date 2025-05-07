@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0 auto;
+            padding: 0;
+        }
+        .menu{
+            background-color: rgb(9, 9, 10);
+            width: 100%;
+            height: 40px;
+        }
+        .menu ul{
+            padding: 0;
+            max-width: 500px;
+        }
+        .menu ul li{          
+            background-color: rgb(9, 9, 10);
+            color: white;
+            float: left;
+            width: 100px;
+            height: 40px;
+            display: inline-block;
+            text-align: center;
+            line-height: 40px;
+            position: relative;
+        }
+        .menu ul li:hover{
+            background-color:blue; 
+        }
+        
+        .menu ul ul{
+            display: none;
+        }
+        .menu ul li:hover > ul{
+            display: block;
+        }
+        
+        .menu ul ul ul{
+            margin-left: 102px;
+            position: absolute;
+            top: 0px;
+        }
+        .menu ul ul li:hover{
+            background-color:rgb(3, 3, 166); 
+        }
+        .menu ul ul ul li:hover{
+            background-color:rgb(2, 2, 88); 
+        }
+    </style>
+</head>
+<body>
+    <header>
+    <nav class="menu">
+        <ul>
+            <li>Norte
+                <ul>
+                    <li>Amazonas</li>
+                    <li>Pará</li>
+                    <li>Roraima
+                        <ul>
+                            <li>Capital</li>
+                            <li>Interior</li>
+                        </ul>
+                    </li>
+                    <li>Amapá</li>
+                    <li>Rondonia</li>
+                    <li>Tocantins</li>
+                </ul>
+            </li>
+            <li>Nordeste
+                <ul>
+                    <li>Bahia</li>
+                    <li>Pernambuco</li>
+                    <li>Ceara
+                        <ul>
+                            <li>Capital</li>
+                            <li>Interior</li>
+                        </ul>
+                    </li>
+                    <li>Sergipe</li>
+                    <li>Alagoas</li>
+                    <li>Rio G Norte</li>
+                </ul>
+            </li>
+            <li>Centro Oeste
+                <ul>
+                    <li>Mato G. Sul</li>
+                    <li>Mato Grosso</li>
+                    <li>Goias
+                        <ul>
+                            <li>Capital</li>
+                            <li>Interior</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>Sudeste
+                <ul>
+                    <li>Minas Gerais</li>
+                    <li>São Paulo</li>
+                    <li>E. Santo
+                        <ul>
+                            <li>Capital</li>
+                            <li>Interior</li>
+                        </ul>
+                    </li>
+                    <li>Rio de Janeiro</li>
+                </ul>
+            </li>
+            <li>Sul
+                <ul>
+                    <li>Rio G. Sul</li>
+                    <li>Paraná</li>
+                    <li>Sana Catarina
+                        <ul>
+                            <li>Capital</li>
+                            <li>Interior</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main>
+
+</main>
+</body>
+</html>
